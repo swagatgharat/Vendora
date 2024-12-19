@@ -109,3 +109,21 @@ Vendora uses predefined intents in the `intents.json` file to understand and res
 
 ### **Database**
 - SQLite
+
+---
+
+## DEMO:
+
+![Screenshot (269)](https://github.com/user-attachments/assets/b310b435-a33d-4a2a-80e5-e38f4e53bad2)
+
+
+
+![Screenshot (270)](https://github.com/user-attachments/assets/1473ca26-0744-4411-a9dc-77ece9a5636f)
+
+
+
+![Screenshot (271)](https://github.com/user-attachments/assets/04b16303-58f7-4be4-9139-0044fb466e32)
+
+
+
+![Screenshot (272)](https://github.com/user-attachments/assets/2a5fdb9e-38be-46d7-a9f3-5e2427dc50aa)

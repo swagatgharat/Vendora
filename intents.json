@@ -1,0 +1,538 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hi there",
+        "Hi!",
+        "Hello!",
+        "Hey!",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi! How can I assist you today?",
+        "Greetings! How may I help you?",
+        "Hi! What's on your mind?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What products are available?"
+      ],
+      "responses": [
+        "We have around 100 different products. What category are you interested in?",
+        "We offer a variety of products. What specific category are you looking for?"
+      ]
+    },
+    {
+      "tag": "category",
+      "patterns": [
+        "What categories do you offer?",
+        "Can you tell me about different categories?",
+        "Do you have specific categories for items?",
+        "Which product categories are available?"
+      ],
+      "responses": [
+        "We offer categories like:\n 1.Electronics\n 2.Clothing\n 3.Groceries\n 4.Sports & Fitness\n 5.Books & Stationery\n 6.Kitchenware",
+        "Our categories include:\n 1.Electronics\n 2.Clothing\n 3.Groceries\n 4.Sports & Fitness\n 5.Books & Stationery\n 6.Kitchenware"
+      ]
+    },
+    {
+      "tag": "electronics",
+      "patterns": [
+        "What electronics do you have?",
+        "Can you list the electronics products?",
+        "What types of electronics are available?"
+      ],
+      "responses": [
+        "We offer a variety of electronics, including:\n 1.Smartphones\n 2.Laptops\n 3.Headphones\n 4.Televisions\n 5.Gaming Consoles."
+      ]
+    },
+    {
+      "tag": "smartphones",
+      "patterns": [
+        "What smartphones do you have?",
+        "Can you list the smartphones products?",
+        "What types of smartphones are available?"
+      ],
+      "responses": [
+        "We offer a variety of smartphones, including:\n1. iPhone 16 - Rs. 1,30,000\n2. iPhone 15 - Rs. 1,10,000\n3. Samsung Galaxy S24 - Rs. 1,20,000\n4. Google Pixel 8 - Rs. 70,000\n5. OnePlus 11 - Rs. 60,000\n6. Sony Xperia 5 IV - Rs. 90,000\n7. Xiaomi Mi 13 - Rs. 55,000\n8. Motorola Edge Plus - Rs. 85,000\n9. Oppo Find X6 Pro - Rs. 1,00,000\n10. Asus ROG Phone 7 - Rs. 75,000"
+      ]
+    },
+    {
+      "tag": "laptops",
+      "patterns": [
+        "What laptops do you have?",
+        "Can you list the laptops products?",
+        "What types of laptops are available?"
+      ],
+      "responses": [
+        "We offer a variety of laptops, including:\n1. Dell XPS 15 - Rs. 1,50,000\n2. MacBook Air M2 - Rs. 1,10,000\n3. HP Spectre x360 - Rs. 1,30,000\n4. Lenovo ThinkPad X1 Carbon - Rs. 1,40,000\n5. Asus ZenBook Pro - Rs. 1,20,000\n6. Acer Predator Helios 500 - Rs. 1,60,000\n7. Microsoft Surface Laptop 5 - Rs. 1,30,000\n8. Razer Blade 15 - Rs. 1,80,000\n9. Alienware X17 - Rs. 2,00,000\n10. Huawei MateBook 14 - Rs. 80,000"
+      ]
+    },
+    {
+      "tag": "headphones",
+      "patterns": [
+        "What headphones do you have?",
+        "Can you list the headphones products?",
+        "What types of headphones are available?"
+      ],
+      "responses": [
+        "We offer a variety of headphones, including:\n1. Sony WH-1000XM5 - Rs. 30,000\n2. Bose Noise Cancelling 700 - Rs. 25,000\n3. Apple AirPods Pro 2 - Rs. 24,000\n4. Sennheiser Momentum 4 - Rs. 28,000\n5. JBL Live 660NC - Rs. 18,000\n6. Bowers & Wilkins PX8 - Rs. 38,000\n7. Bang & Olufsen Beoplay HX - Rs. 44,000\n8. AKG N700NC - Rs. 22,000\n9. Shure Aonic 50 - Rs. 35,000\n10. Audio-Technica ATH-M50x - Rs. 15,000"
+      ]
+    },
+    {
+      "tag": "tv",
+      "patterns": [
+        "What televisions do you have?",
+        "Can you list the televisions products?",
+        "What types of televisions are available?"
+      ],
+      "responses": [
+        "We offer a variety of televisions, including:\n1. LG OLED C3 - Rs. 1,50,000\n2. Sony Bravia XR A95L - Rs. 1,40,000\n3. Samsung QN95B - Rs. 1,20,000\n4. Panasonic JZ2000 - Rs. 1,10,000\n5. TCL 6-Series - Rs. 70,000\n6. Hisense U8H - Rs. 80,000\n7. Vizio M-Series - Rs. 65,000\n8. Philips OLED908 - Rs. 1,30,000\n9. Samsung The Frame - Rs. 1,20,000\n10. Sharp Aquos Sense 7 - Rs. 75,000"
+      ]
+    },
+    {
+      "tag": "gaming",
+      "patterns": [
+        "What game consoles do you have?",
+        "Can you list the game consoles products?",
+        "What types of game consoles are available?"
+      ],
+      "responses": [
+        "We offer a variety of gaming consoles, including:\n1. PlayStation 5 - Rs. 50,000\n2. Xbox Series X - Rs. 55,000\n3. Nintendo Switch OLED - Rs. 30,000\n4. Asus ROG Ally - Rs. 1,00,000\n5. Steam Deck - Rs. 40,000\n6. Xbox Series S - Rs. 30,000\n7. PlayStation VR2 - Rs. 60,000\n8. Logitech G Cloud - Rs. 25,000\n9. Nvidia Shield TV - Rs. 35,000\n10. Razer Wolverine Ultimate - Rs. 10,000"
+      ]
+    },
+    {
+      "tag": "clothings",
+      "patterns": [
+        "What clothings do you have?",
+        "Can you list the clothing products?",
+        "What types of clothing are available?"
+      ],
+      "responses": [
+        "We offer a variety of clothing, including:\n1. T-Shirts\n2. Jeans\n3. Dresses\n4. Jackets\n5. Shoes"
+      ]
+    },
+    {
+      "tag": "tshirts",
+      "patterns": [
+        "What t-shirt products do you have?",
+        "Can you list the t-shirt options?",
+        "What types of t-shirts are available?"
+      ],
+      "responses": [
+        "We offer a variety of t-shirt options, including:\n1. Basic Cotton T-shirt - Rs. 500\n2. Graphic Print T-shirt - Rs. 800\n3. Performance Moisture-Wicking T-shirt - Rs. 1,200\n4. Vintage Wash T-shirt - Rs. 1,000\n5. Long Sleeve T-shirt - Rs. 1,500\n6. Polo T-shirt - Rs. 1,800\n7. Designer Embroidered T-shirt - Rs. 2,500\n8. Oversized Fit T-shirt - Rs. 1,000\n9. Sustainable Organic Cotton T-shirt - Rs. 1,200\n10. Slim Fit Basic T-shirt - Rs. 1,000"
+      ]
+    },
+    {
+      "tag": "jeans",
+      "patterns": [
+        "What jeans products do you have?",
+        "Can you list the jeans options?",
+        "What types of jeans are available?"
+      ],
+      "responses": [
+        "We offer a variety of jeans options, including:\n1. Slim Fit Jeans - Rs. 1,200\n2. Straight Fit Jeans - Rs. 1,000\n3. Relaxed Fit Jeans - Rs. 1,400\n4. Skinny Jeans - Rs. 1,000\n5. High Waisted Jeans - Rs. 1,300\n6. Distressed Jeans - Rs. 1,500\n7. Straight Cut Denim - Rs. 1,200\n8. Wide Leg Jeans - Rs. 1,400\n9. Bootcut Jeans - Rs. 1,300\n10. Stretch Jeans - Rs. 1,100"
+      ]
+    },
+    {
+      "tag": "dresses",
+      "patterns": [
+        "What dress products do you have?",
+        "Can you list the dress options?",
+        "What types of dresses are available?"
+      ],
+      "responses": [
+        "We offer a variety of dress options, including:\n1. Casual Maxi Dress - Rs. 1,500\n2. Evening Gown - Rs. 5,000\n3. A-line Dress - Rs. 2,000\n4. Wrap Dress - Rs. 2,200\n5. Off-Shoulder Dress - Rs. 2,500\n6. Shift Dress - Rs. 1,800\n7. Bodycon Dress - Rs. 2,800\n8. Denim Dress - Rs. 2,000\n9. Flowy Summer Dress - Rs. 1,500\n10. Halter Neck Dress - Rs. 2,300"
+      ]
+    },
+    {
+      "tag": "jackets",
+      "patterns": [
+        "What jacket products do you have?",
+        "Can you list the jacket options?",
+        "What types of jackets are available?"
+      ],
+      "responses": [
+        "We offer a variety of jacket options, including:\n1. Leather Jacket - Rs. 5,000\n2. Bomber Jacket - Rs. 3,500\n3. Denim Jacket - Rs. 2,500\n4. Puffer Jacket - Rs. 4,000\n5. Wool Coat - Rs. 6,000\n6. Trench Coat - Rs. 4,500\n7. Rain Jacket - Rs. 3,000\n8. Blazer - Rs. 3,500\n9. Fleece Jacket - Rs. 2,000\n10. Moto Jacket - Rs. 4,000"
+      ]
+    },
+    {
+      "tag": "shoes",
+      "patterns": [
+        "What shoe products do you have?",
+        "Can you list the shoe options?",
+        "What types of shoes are available?"
+      ],
+      "responses": [
+        "We offer a variety of shoe options, including:\n1. Sneakers - Rs. 2,500\n2. Formal Shoes - Rs. 4,000\n3. Sandals - Rs. 1,800\n4. Boots - Rs. 3,500\n5. Loafers - Rs. 3,000\n6. Flip Flops - Rs. 1,000\n7. High Heels - Rs. 3,800\n8. Sports Shoes - Rs. 3,200\n9. Espadrilles - Rs. 2,000\n10. Casual Shoes - Rs. 2,200"
+      ]
+    },
+    {
+      "tag": "groceries",
+      "patterns": [
+        "What groceries do you have?",
+        "Can you list the groceries products?",
+        "What types of groceries are available?"
+      ],
+      "responses": [
+        "We offer a variety of groceries, including:\n1. Fruits and Vegetables\n2. Dairy Products\n3. Packaged Foods\n4. Beverages\n5. Bakery Items"
+      ]
+    },
+    {
+      "tag": "fruits",
+      "patterns": [
+        "What fruits do you have?",
+        "Can you list the fruits products?",
+        "What types of fruits are available?"
+      ],
+      "responses": [
+        "We offer a variety of fresh fruits, including:\n1. Apples - Rs. 150/kg\n2. Bananas - Rs. 50/kg\n3. Oranges - Rs. 120/kg\n4. Grapes - Rs. 180/kg\n5. Mangoes - Rs. 250/kg\n6. Watermelons - Rs. 80/kg\n7. Pineapples - Rs. 100/each\n8. Strawberries - Rs. 200/250g\n9. Papayas - Rs. 70/kg\n10. Pomegranates - Rs. 160/kg"
+      ]
+    },
+    {
+      "tag": "vegetables",
+      "patterns": [
+        "What vegetables do you have?",
+        "Can you list the vegetables products?",
+        "What types of vegetables are available?"
+      ],
+      "responses": [
+        "We offer a variety of fresh vegetables, including:\n1. Tomatoes - Rs. 60/kg\n2. Potatoes - Rs. 40/kg\n3. Onions - Rs. 50/kg\n4. Carrots - Rs. 70/kg\n5. Cauliflower - Rs. 100/kg\n6. Capsicum - Rs. 120/kg\n7. Spinach - Rs. 50/kg\n8. Cabbage - Rs. 45/kg\n9. Green Beans - Rs. 80/kg\n10. Broccoli - Rs. 200/kg"
+      ]
+    },
+    {
+      "tag": "dairy_products",
+      "patterns": [
+        "What dairy products do you have?",
+        "Can you list the dairy products?",
+        "What types of dairy products are available?"
+      ],
+      "responses": [
+        "We offer a variety of dairy products, including:\n1. Milk - Rs. 50/litre\n2. Butter - Rs. 200/500g\n3. Cheese - Rs. 300/200g\n4. Yogurt - Rs. 150/500g\n5. Curd - Rs. 120/500g\n6. Cream - Rs. 250/200g\n7. Ghee - Rs. 500/1kg\n8. Cottage Cheese (Paneer) - Rs. 250/500g\n9. Ice Cream - Rs. 100/pack\n10. Skimmed Milk Powder - Rs. 450/1kg"
+      ]
+    },
+    {
+      "tag": "packaged_food",
+      "patterns": [
+        "What packaged foods do you have?",
+        "Can you list the packaged food products?",
+        "What types of packaged foods are available?"
+      ],
+      "responses": [
+        "We offer a variety of packaged foods, including:\n1. Pasta - Rs. 200/500g\n2. Rice - Rs. 300/2kg\n3. Cereals - Rs. 150/500g\n4. Snacks - Rs. 100/pack\n5. Biscuits - Rs. 50/pack\n6. Noodles - Rs. 120/200g\n7. Cooking Sauces - Rs. 250/bottle\n8. Spices - Rs. 75/100g\n9. Jams - Rs. 180/500g\n10. Instant Soups - Rs. 100/pack"
+      ]
+    },
+    {
+      "tag": "beverages",
+      "patterns": [
+        "What beverages do you have?",
+        "Can you list the beverages products?",
+        "What types of beverages are available?"
+      ],
+      "responses": [
+        "We offer a variety of beverages, including:\n1. Soft Drinks - Rs. 30/bottle\n2. Juices - Rs. 50/pack\n3. Tea - Rs. 100/250g\n4. Coffee - Rs. 150/200g\n5. Milkshakes - Rs. 80/glass\n6. Energy Drinks - Rs. 120/250ml\n7. Water - Rs. 20/bottle\n8. Mocktails - Rs. 150/pack\n9. Smoothies - Rs. 120/glass\n10. Health Drinks - Rs. 250/400g"
+      ]
+    },
+    {
+      "tag": "bakery_items",
+      "patterns": [
+        "What bakery items do you have?",
+        "Can you list the bakery items?",
+        "What types of bakery items are available?"
+      ],
+      "responses": [
+        "We offer a variety of bakery items, including:\n1. Breads - Rs. 50/loaf\n2. Cakes - Rs. 500/500g\n3. Pastries - Rs. 80/each\n4. Muffins - Rs. 60/each\n5. Cookies - Rs. 100/pack\n6. Donuts - Rs. 40/each\n7. Croissants - Rs. 70/each\n8. Pies - Rs. 150/each\n9. Cupcakes - Rs. 90/each\n10. Biscuits - Rs. 50/pack"
+      ]
+    },
+    {
+      "tag": "sports_and_fitness",
+      "patterns": [
+        "What sports and fitness products do you have?",
+        "Can you list the sports and fitness products?",
+        "What types of sports and fitness equipment are available?"
+      ],
+      "responses": [
+        "We offer a variety of sports and fitness products, including:\n1. Treadmills\n2. Dumbbells\n3. Yoga Mats\n4. Cycling Equipment\n5. Resistance Bands"
+      ]
+    },
+    {
+      "tag": "treadmills",
+      "patterns": [
+        "What treadmills do you have?",
+        "Can you list the treadmill products?",
+        "What types of treadmills are available?"
+      ],
+      "responses": [
+        "We offer a variety of treadmills, including:\n1. Manual Treadmill - Rs. 25,000\n2. Motorized Treadmill - Rs. 40,000\n3. Folding Treadmill - Rs. 35,000\n4. Incline Treadmill - Rs. 45,000\n5. Smart Treadmill - Rs. 60,000"
+      ]
+    },
+    {
+      "tag": "dumbbells",
+      "patterns": [
+        "What dumbbells do you have?",
+        "Can you list the dumbbell products?",
+        "What types of dumbbells are available?"
+      ],
+      "responses": [
+        "We offer a variety of dumbbells, including:\n1. Adjustable Dumbbells - Rs. 5,000\n2. Fixed Dumbbells - Rs. 2,000/pair\n3. Hex Dumbbells - Rs. 2,500/pair\n4. Rubber Coated Dumbbells - Rs. 3,000/pair\n5. Vinyl Dumbbells - Rs. 1,500/pair"
+      ]
+    },
+    {
+      "tag": "yoga_mats",
+      "patterns": [
+        "What yoga mats do you have?",
+        "Can you list the yoga mat products?",
+        "What types of yoga mats are available?"
+      ],
+      "responses": [
+        "We offer a variety of yoga mats, including:\n1. PVC Yoga Mat - Rs. 1,000\n2. TPE Yoga Mat - Rs. 1,200\n3. Eco-Friendly Yoga Mat - Rs. 1,500\n4. Non-Slip Yoga Mat - Rs. 1,800\n5. Travel Yoga Mat - Rs. 1,000"
+      ]
+    },
+    {
+      "tag": "cycling_equipment",
+      "patterns": [
+        "What cycling equipment do you have?",
+        "Can you list the cycling equipment?",
+        "What types of cycling equipment are available?"
+      ],
+      "responses": [
+        "We offer a variety of cycling equipment, including:\n1. Bicycles - Rs. 10,000 onwards\n2. Helmets - Rs. 1,500\n3. Cycling Gloves - Rs. 800\n4. Bike Lights - Rs. 1,200\n5. Water Bottles - Rs. 300"
+      ]
+    },
+    {
+      "tag": "resistance_bands",
+      "patterns": [
+        "What resistance bands do you have?",
+        "Can you list the resistance band products?",
+        "What types of resistance bands are available?"
+      ],
+      "responses": [
+        "We offer a variety of resistance bands, including:\n1. Light Resistance Bands - Rs. 500\n2. Medium Resistance Bands - Rs. 600\n3. Heavy Resistance Bands - Rs. 700\n4. Loop Resistance Bands - Rs. 800\n5. Resistance Band Set - Rs. 1,000"
+      ]
+    },
+    {
+      "tag": "books_and_stationery",
+      "patterns": [
+        "What books and stationery do you have?",
+        "Can you list the books and stationery products?",
+        "What types of books and stationery are available?"
+      ],
+      "responses": [
+        "We offer a variety of books and stationery items, including:\n1. Notebooks\n2. Pens\n3. Journals\n4. Textbooks\n5. Sketchbooks"
+      ]
+    },
+    {
+      "tag": "notebooks",
+      "patterns": [
+        "What notebooks do you have?",
+        "Can you list the notebook products?",
+        "What types of notebooks are available?"
+      ],
+      "responses": [
+        "We offer a variety of notebooks, including:\n1. Spiral Notebooks - Rs. 150\n2. Hardbound Notebooks - Rs. 200\n3. A5 Notebooks - Rs. 100\n4. Softcover Notebooks - Rs. 120\n5. Grid Notebooks - Rs. 180"
+      ]
+    },
+    {
+      "tag": "pens",
+      "patterns": [
+        "What pens do you have?",
+        "Can you list the pen products?",
+        "What types of pens are available?"
+      ],
+      "responses": [
+        "We offer a variety of pens, including:\n1. Ballpoint Pens - Rs. 20\n2. Gel Pens - Rs. 50\n3. Fountain Pens - Rs. 500\n4. Rollerball Pens - Rs. 100\n5. Mechanical Pencils - Rs. 30"
+      ]
+    },
+    {
+      "tag": "journals",
+      "patterns": [
+        "What journals do you have?",
+        "Can you list the journal products?",
+        "What types of journals are available?"
+      ],
+      "responses": [
+        "We offer a variety of journals, including:\n1. Leather Journals - Rs. 500\n2. Spiral Journals - Rs. 300\n3. Bullet Journals - Rs. 700\n4. Softcover Journals - Rs. 250\n5. Hardcover Journals - Rs. 400"
+      ]
+    },
+    {
+      "tag": "textbooks",
+      "patterns": [
+        "What textbooks do you have?",
+        "Can you list the textbook products?",
+        "What types of textbooks are available?"
+      ],
+      "responses": [
+        "We offer a variety of textbooks, including:\n1. Science Textbooks - Rs. 1,200\n2. Mathematics Textbooks - Rs. 1,000\n3. English Literature Textbooks - Rs. 800\n4. History Textbooks - Rs. 1,500\n5. Computer Science Textbooks - Rs. 1,800"
+      ]
+    },
+    {
+      "tag": "sketchbooks",
+      "patterns": [
+        "What sketchbooks do you have?",
+        "Can you list the sketchbook products?",
+        "What types of sketchbooks are available?"
+      ],
+      "responses": [
+        "We offer a variety of sketchbooks, including:\n1. Spiral Sketchbooks - Rs. 300\n2. Hardbound Sketchbooks - Rs. 500\n3. Watercolor Sketchbooks - Rs. 700\n4. A5 Sketchbooks - Rs. 200\n5. Handmade Sketchbooks - Rs. 600"
+      ]
+    },
+    {
+      "tag": "kitchenware",
+      "patterns": [
+        "What kitchenware do you have?",
+        "Can you list the kitchenware products?",
+        "What types of kitchenware are available?"
+      ],
+      "responses": [
+        "We offer a variety of kitchenware items, including:\n1. Cookware Sets\n2. Cutlery\n3. Mixing Bowls\n4. Baking Trays\n5. Kitchen Utensils"
+      ]
+    },
+    {
+      "tag": "cookware",
+      "patterns": [
+        "What cookware do you have?",
+        "Can you list the cookware products?",
+        "What types of cookware are available?"
+      ],
+      "responses": [
+        "We offer a variety of cookware, including:\n1. Cookware Sets - Rs. 5,000\n2. Frying Pans - Rs. 1,000\n3. Sauce Pans - Rs. 1,200\n4. Woks - Rs. 1,500\n5. Pressure Cookers - Rs. 2,000"
+      ]
+    },
+    {
+      "tag": "cutlery",
+      "patterns": [
+        "What cutlery do you have?",
+        "Can you list the cutlery products?",
+        "What types of cutlery are available?"
+      ],
+      "responses": [
+        "We offer a variety of cutlery, including:\n1. Stainless Steel Cutlery Sets - Rs. 1,500\n2. Wooden Handle Cutlery - Rs. 1,800\n3. Ceramic Cutlery - Rs. 2,000\n4. Designer Cutlery - Rs. 2,500\n5. Travel Cutlery Sets - Rs. 1,200"
+      ]
+    },
+    {
+      "tag": "mixing_bowls",
+      "patterns": [
+        "What mixing bowls do you have?",
+        "Can you list the mixing bowl products?",
+        "What types of mixing bowls are available?"
+      ],
+      "responses": [
+        "We offer a variety of mixing bowls, including:\n1. Stainless Steel Mixing Bowls - Rs. 500\n2. Glass Mixing Bowls - Rs. 600\n3. Plastic Mixing Bowls - Rs. 300\n4. Ceramic Mixing Bowls - Rs. 800\n5. Nesting Mixing Bowls - Rs. 1,200"
+      ]
+    },
+    {
+      "tag": "baking_trays",
+      "patterns": [
+        "What baking trays do you have?",
+        "Can you list the baking tray products?",
+        "What types of baking trays are available?"
+      ],
+      "responses": [
+        "We offer a variety of baking trays, including:\n1. Aluminium Baking Trays - Rs. 400\n2. Non-Stick Baking Trays - Rs. 500\n3. Silicone Baking Mats - Rs. 600\n4. Steel Baking Trays - Rs. 450\n5. Pizza Trays - Rs. 700"
+      ]
+    },
+    {
+      "tag": "kitchen_utensils",
+      "patterns": [
+        "What kitchen utensils do you have?",
+        "Can you list the kitchen utensil products?",
+        "What types of kitchen utensils are available?"
+      ],
+      "responses": [
+        "We offer a variety of kitchen utensils, including:\n1. Spatulas - Rs. 150\n2. Whisks - Rs. 200\n3. Ladles - Rs. 250\n4. Tongs - Rs. 300\n5. Kitchen Scissors - Rs. 180"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days. Would you like to place an order?",
+        "We offer express delivery in 1-2 days at an additional cost. Would you like to place an order?",
+        "Standard delivery usually takes 3-5 business days. Would you like to place an order?"
+      ]
+    },
+    {
+      "tag": "place_order",
+      "patterns": [
+        "How can I place an order?",
+        "What steps do I need to follow to order?",
+        "Can I place an order now?",
+        "Where can I find the order form?",
+        "What payment methods are accepted?"
+      ],
+      "responses": [
+        "To place an order, you can visit our website or contact us directly. Once you've chosen your items, proceed to checkout to complete your order.",
+        "You can place an order by selecting your desired items and following the steps for payment. If you have any questions, feel free to ask!",
+        "Yes, you can place an order now. Please provide your details and choose your products, and we’ll take care of the rest!",
+        "You can find the order form on our website’s ‘Shop’ section. Fill it out, review your selection, and proceed to checkout.",
+        "We accept various payment methods including credit/debit cards, net banking, and UPI payments."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept debit cards?",
+        "Do you accept UPI?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept credit cards, debit cards, UPI, and cash.",
+        "We accept major payment methods including credit cards, debit cards, UPI, and cash."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}

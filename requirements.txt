@@ -1,0 +1,4 @@
+Flask
+PyTorch
+nltk
+sqlite3
